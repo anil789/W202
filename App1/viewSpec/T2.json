@@ -1,0 +1,30 @@
+{
+  "name" : "T2",
+  "type" : "table",
+  "fieldSpecs" : [
+    {
+      "name" : "Readonly_1",
+      "css" : {
+        "width" : "25%"
+      },
+      "html" : "Name1234",
+      "type" : "readonly"
+    },
+    {
+      "name" : "Column_2",
+      "html" : "Time123-5555",
+      "type" : "readonly"
+    },
+    {
+      "name" : "Column_1",
+      "html" : "More",
+      "type" : "readonly"
+    },
+    {
+      "name" : "Column_3",
+      "html" : "A3-12345",
+      "type" : "readonly"
+    }
+  ],
+  "cssClass" : "trillo-table"
+}

@@ -1,0 +1,86 @@
+{
+  "name" : "F1",
+  "type" : "form",
+  "fieldSpecs" : [
+    {
+      "name" : "Text_2",
+      "displayName" : "Text_2",
+      "cssClass" : "form-group",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "role",
+      "displayName" : "Role",
+      "cssClass" : "form-group",
+      "enumName" : "roleEnum",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "role2",
+      "displayName" : "Role2",
+      "cssClass" : "form-group",
+      "enumName" : "roleEnum",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "Checkbox_1",
+      "displayName" : "Checkbox_1",
+      "cssClass" : "custom-control custom-checkbox",
+      "editable" : true,
+      "type" : "checkbox"
+    },
+    {
+      "name" : "Text_5",
+      "displayName" : "Spring5",
+      "cssClass" : "form-group",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "Text_4",
+      "displayName" : "Text_4",
+      "cssClass" : "form-group",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "Text_3",
+      "displayName" : "Text_3",
+      "cssClass" : "form-group",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "name",
+      "displayName" : "Name",
+      "cssClass" : "form-group",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "Text_1",
+      "displayName" : "Text_1",
+      "cssClass" : "form-group",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "Number_1",
+      "displayName" : "Number_1",
+      "cssClass" : "form-group",
+      "editable" : true,
+      "type" : "number"
+    }
+  ],
+  "css" : {
+    "width" : "300px",
+    "padding" : "15px",
+    "background-color" : "rgb(0, 0, 0)",
+    "color" : "rgb(255, 255, 255)",
+    "border-radius" : "8px"
+  },
+  "cssClass" : "trillo-form form-in-design-mode"
+}

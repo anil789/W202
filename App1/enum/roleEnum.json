@@ -1,0 +1,16 @@
+{
+  "roleEnum" : [
+    {
+      "v" : "value1",
+      "n" : "Name 1"
+    },
+    {
+      "v" : "value2",
+      "n" : "Name 2"
+    },
+    {
+      "n" : "Name3",
+      "v" : "value3"
+    }
+  ]
+}

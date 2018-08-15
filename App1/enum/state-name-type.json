@@ -1,0 +1,12 @@
+{
+  "state-name-type" : [
+    {
+      "v" : "value1",
+      "n" : "Name 1"
+    },
+    {
+      "v" : "value2",
+      "n" : "Name 2"
+    }
+  ]
+}

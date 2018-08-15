@@ -1,0 +1,116 @@
+{
+  "name" : "C2",
+  "type" : "container",
+  "containerSpecs" : [
+    {
+      "name" : "Row_1",
+      "autoNav" : false,
+      "css" : {
+        "align-self" : "stretch",
+        "background" : "#ff0000"
+      },
+      "cssClass" : "trillo-container-row",
+      "tag" : "userDefined",
+      "trigger" : "*",
+      "type" : "row"
+    },
+    {
+      "name" : "Row_3",
+      "autoNav" : false,
+      "childrenSpecs" : [
+        {
+          "name" : "Image_1",
+          "attrs" : {
+            "url" : "/W202/App1/static/img/Block2(1).png"
+          },
+          "autoNav" : false,
+          "cssClass" : "trillo-component",
+          "tag" : "userDefined",
+          "type" : "img"
+        }
+      ],
+      "css" : {
+        "align-self" : "stretch",
+        "background-color" : "#fff",
+        "justify-content" : "center"
+      },
+      "cssClass" : "trillo-container-row",
+      "tag" : "userDefined",
+      "trigger" : "*",
+      "type" : "row"
+    },
+    {
+      "name" : "Row_4",
+      "autoNav" : false,
+      "childrenSpecs" : [
+        {
+          "name" : "Column_1",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "CountryForm_1",
+              "autoNav" : false,
+              "css" : {
+                "width" : "300px",
+                "padding" : "10px",
+                "border" : "5px solid rgb(194, 194, 194)"
+              },
+              "reference" : "CountryForm",
+              "tag" : "userDefined",
+              "trigger" : "*",
+              "type" : "view"
+            }
+          ],
+          "css" : {
+            "min-width" : "20px",
+            "align-self" : "stretch",
+            "padding" : "10px"
+          },
+          "cssClass" : "trillo-container-column",
+          "tag" : "userDefined",
+          "trigger" : "*",
+          "type" : "column"
+        },
+        {
+          "name" : "Column_4",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "Card1_1",
+              "autoNav" : false,
+              "reference" : "Card1",
+              "tag" : "userDefined",
+              "trigger" : "*",
+              "type" : "view"
+            }
+          ],
+          "css" : {
+            "min-width" : "20px",
+            "width" : "50%",
+            "flex-grow" : "1",
+            "padding" : "10px"
+          },
+          "cssClass" : "trillo-container-column",
+          "tag" : "userDefined",
+          "trigger" : "*",
+          "type" : "column"
+        }
+      ],
+      "css" : {
+        "align-self" : "stretch",
+        "flex-wrap" : "nowrap"
+      },
+      "cssClass" : "trillo-container-row",
+      "tag" : "userDefined",
+      "trigger" : "*",
+      "type" : "row"
+    }
+  ],
+  "css" : {
+    "display" : "flex",
+    "flex-direction" : "column",
+    "flex-grow" : "1",
+    "min-width" : "auto"
+  },
+  "cssClass" : "trillo-container"
+}

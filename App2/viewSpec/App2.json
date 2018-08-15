@@ -1,0 +1,347 @@
+{
+  "name" : "App2",
+  "type" : "page",
+  "controller" : "App2C",
+  "containerSpecs" : [
+    {
+      "name" : "Row_1",
+      "autoNav" : false,
+      "childrenSpecs" : [
+        {
+          "name" : "header_1",
+          "autoNav" : false,
+          "css" : {
+            "z-index" : "2000",
+            "flex-grow" : "1"
+          },
+          "flexGrow" : "1",
+          "reference" : "header",
+          "tag" : "userDefined",
+          "trigger" : "_initial_",
+          "type" : "view"
+        }
+      ],
+      "cssClass" : "trillo-container-row",
+      "tag" : "userDefined",
+      "trigger" : "_initial_/home_",
+      "type" : "row"
+    },
+    {
+      "name" : "mainRow",
+      "autoNav" : false,
+      "childrenSpecs" : [
+        {
+          "name" : "leftColumn",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "SideBar_1",
+              "alignment" : "top",
+              "autoNav" : false,
+              "css" : {
+                "width" : "250px",
+                "min-width" : "250px",
+                "flex-grow" : "1"
+              },
+              "flexGrow" : "1",
+              "reference" : "SideBar",
+              "tag" : "userDefined",
+              "trigger" : "_initial_",
+              "type" : "view"
+            }
+          ],
+          "cssClass" : "left-column trillo-container-column",
+          "designTimeWidth" : "250px",
+          "tag" : "templateE",
+          "type" : "column"
+        },
+        {
+          "name" : "titleAndContentArea",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "Row_6",
+              "alignment" : "left",
+              "autoNav" : false,
+              "childrenSpecs" : [
+                {
+                  "name" : "Traffic_1",
+                  "alignment" : "left",
+                  "autoNav" : false,
+                  "flexGrow" : "1",
+                  "reference" : "Traffic",
+                  "tag" : "userDefined",
+                  "trigger" : "_initial_/SideBar:charts",
+                  "type" : "view"
+                }
+              ],
+              "cssClass" : "trillo-container-row",
+              "tag" : "userDefined",
+              "trigger" : "_initial_/SideBar:charts",
+              "type" : "row"
+            },
+            {
+              "name" : "Row_7",
+              "alignment" : "left",
+              "autoNav" : false,
+              "childrenSpecs" : [
+                {
+                  "name" : "Sales_1",
+                  "alignment" : "left",
+                  "autoNav" : false,
+                  "flexGrow" : "1",
+                  "reference" : "Sales",
+                  "tag" : "userDefined",
+                  "trigger" : "_initial_/SideBar:charts",
+                  "type" : "view"
+                }
+              ],
+              "cssClass" : "trillo-container-row",
+              "tag" : "userDefined",
+              "trigger" : "_initial_/SideBar:charts",
+              "type" : "row"
+            },
+            {
+              "name" : "mainContentArea",
+              "autoNav" : false,
+              "childrenSpecs" : [
+                {
+                  "name" : "column_4",
+                  "autoNav" : false,
+                  "childrenSpecs" : [
+                    {
+                      "name" : "Row_10",
+                      "autoNav" : false,
+                      "childrenSpecs" : [
+                        {
+                          "name" : "Sales_2",
+                          "alignment" : "left",
+                          "autoNav" : false,
+                          "flexGrow" : "1",
+                          "reference" : "Sales",
+                          "tag" : "userDefined",
+                          "trigger" : "_initial_/SideBar:sales",
+                          "type" : "view"
+                        }
+                      ],
+                      "cssClass" : "trillo-container-row",
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/SideBar:sales",
+                      "type" : "row"
+                    },
+                    {
+                      "name" : "Row_11",
+                      "alignment" : "left",
+                      "autoNav" : false,
+                      "childrenSpecs" : [
+                        {
+                          "name" : "Traffic_2",
+                          "alignment" : "left",
+                          "autoNav" : false,
+                          "flexGrow" : "1",
+                          "reference" : "Traffic",
+                          "tag" : "userDefined",
+                          "trigger" : "_initial_/SideBar:sales",
+                          "type" : "view"
+                        }
+                      ],
+                      "cssClass" : "trillo-container-row",
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/SideBar:sales",
+                      "type" : "row"
+                    }
+                  ],
+                  "cssClass" : "trillo-container-column",
+                  "flexGrow" : "1",
+                  "type" : "column"
+                },
+                {
+                  "name" : "column_3",
+                  "autoNav" : false,
+                  "childrenSpecs" : [
+                    {
+                      "name" : "Row_8",
+                      "autoNav" : false,
+                      "childrenSpecs" : [
+                        {
+                          "name" : "column_5",
+                          "autoNav" : false,
+                          "childrenSpecs" : [
+                            {
+                              "name" : "Row_12",
+                              "autoNav" : false,
+                              "css" : {
+                                "align-self" : "stretch"
+                              },
+                              "cssClass" : "trillo-container-row",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_/SideBar:alerts",
+                              "type" : "row"
+                            }
+                          ],
+                          "cssClass" : "trillo-container-column",
+                          "flexGrow" : "1",
+                          "type" : "column"
+                        }
+                      ],
+                      "cssClass" : "trillo-container-row",
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/SideBar:alerts",
+                      "type" : "row"
+                    },
+                    {
+                      "name" : "Row_13",
+                      "alignment" : "left",
+                      "autoNav" : false,
+                      "css" : {
+                        "align-self" : "stretch"
+                      },
+                      "cssClass" : "trillo-container-row",
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/SideBar:alerts",
+                      "type" : "row"
+                    }
+                  ],
+                  "css" : {
+                    "flex-grow" : "1",
+                    "min-width" : "20px"
+                  },
+                  "cssClass" : "trillo-container-column",
+                  "flexGrow" : "1",
+                  "type" : "column"
+                },
+                {
+                  "name" : "Subscribers_1",
+                  "alignment" : "left",
+                  "autoNav" : false,
+                  "flexGrow" : "1",
+                  "reference" : "Subscribers",
+                  "tag" : "userDefined",
+                  "trigger" : "_initial_/SideBar:users",
+                  "type" : "view"
+                },
+                {
+                  "name" : "column_1",
+                  "autoNav" : false,
+                  "childrenSpecs" : [
+                    {
+                      "name" : "Row_4",
+                      "autoNav" : false,
+                      "childrenSpecs" : [
+                        {
+                          "name" : "Column_4",
+                          "autoNav" : false,
+                          "childrenSpecs" : [
+                            {
+                              "name" : "Sales_3",
+                              "autoNav" : false,
+                              "css" : {
+                                "flex-grow" : "1",
+                                "min-width" : "400px",
+                                "width" : "100%"
+                              },
+                              "flexGrow" : "1",
+                              "reference" : "Sales",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_/home_",
+                              "type" : "view"
+                            },
+                            {
+                              "name" : "header_2",
+                              "autoNav" : false,
+                              "css" : {
+                                "flex-grow" : "1",
+                                "padding" : "20px",
+                                "margin" : "20px"
+                              },
+                              "flexGrow" : "1",
+                              "reference" : "header",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_/home_",
+                              "type" : "view"
+                            },
+                            {
+                              "name" : "Subscribers_2",
+                              "autoNav" : false,
+                              "css" : {
+                                "margin" : "0px",
+                                "padding" : "20px",
+                                "flex-grow" : "1",
+                                "min-width" : "300px"
+                              },
+                              "flexGrow" : "1",
+                              "reference" : "Subscribers",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_/home_",
+                              "type" : "view"
+                            }
+                          ],
+                          "css" : {
+                            "align-self" : "stretch",
+                            "flex" : "1",
+                            "padding" : "20px"
+                          },
+                          "cssClass" : "trillo-container-column",
+                          "tag" : "userDefined",
+                          "trigger" : "_initial_/home_",
+                          "type" : "column"
+                        }
+                      ],
+                      "css" : {
+                        "align-self" : "stretch",
+                        "min-height" : "300px"
+                      },
+                      "cssClass" : "trillo-container-row",
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/home_",
+                      "type" : "row"
+                    }
+                  ],
+                  "css" : {
+                    "flex-grow" : "1",
+                    "min-width" : "20px"
+                  },
+                  "cssClass" : "trillo-container-column",
+                  "flexGrow" : "1",
+                  "type" : "column"
+                }
+              ],
+              "css" : {
+                "flex-grow" : "1",
+                "height" : "100px"
+              },
+              "cssClass" : "trillo-container-row",
+              "designTimeHeight" : "100px",
+              "flexGrow" : "1",
+              "main" : true,
+              "tag" : "templateE",
+              "type" : "row"
+            }
+          ],
+          "css" : {
+            "min-width" : "320px",
+            "flex-grow" : "1"
+          },
+          "cssClass" : "trillo-container-column",
+          "flexGrow" : "1",
+          "main" : true,
+          "minWidth" : "320px",
+          "tag" : "templateE",
+          "type" : "column"
+        }
+      ],
+      "cssClass" : "light-content-area main-row trillo-container-row",
+      "flexGrow" : "1",
+      "main" : true,
+      "tag" : "templateE",
+      "type" : "row"
+    }
+  ],
+  "css" : {
+    "display" : "flex",
+    "flex-direction" : "column",
+    "flex-grow" : "1",
+    "min-width" : "auto"
+  },
+  "cssClass" : "trillo-container"
+}

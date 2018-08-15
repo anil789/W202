@@ -1,0 +1,207 @@
+{
+"name" : "NT1",
+"type" : "navTree",
+"actionSpecs" : [
+  {
+    "name" : "TreeNode_1_1"
+  },
+  {
+    "name" : "treeNode_1"
+  },
+  {
+    "name" : "treeNode_2"
+  },
+  {
+    "name" : "treeNode_3"
+  },
+  {
+    "name" : "treeNode_6"
+  },
+  {
+    "name" : "treeNode_4"
+  },
+  {
+    "name" : "treeNode_7"
+  },
+  {
+    "name" : "treeNode_5"
+  },
+  {
+    "name" : "tree-leaf-node_3"
+  },
+  {
+    "name" : "tree-leaf-node_4"
+  },
+  {
+    "name" : "tree-leaf-node_2"
+  },
+  {
+    "name" : "tree-leaf-node_1"
+  },
+  {
+    "name" : "tree-leaf-node_5"
+  },
+  {
+    "name" : "tree-leaf-node_6"
+  }
+],
+"hierSpecs" : [
+  {
+    "name" : "TreeNode_1",
+    "css" : {
+      "font-size" : "20px"
+    },
+    "hierSpecs" : [
+      {
+        "name" : "tree-node_1",
+        "actionSpec" : { },
+        "hierSpecs" : [
+          {
+            "name" : "tree-leaf-node_7",
+            "html" : "tree-leaf-node_7",
+            "type" : "tree-leaf-node"
+          },
+          {
+            "name" : "tree-leaf-node_8",
+            "html" : "tree-leaf-node_8",
+            "type" : "tree-leaf-node"
+          }
+        ],
+        "html" : "\n        <i></i>\n        Tree Node 1\n      ",
+        "type" : "tree-node"
+      },
+      {
+        "name" : "TreeNode_1_1",
+        "html" : "\n            <i></i>\n            TreeNode_1_1323232\n          ",
+        "type" : "tree-leaf-node"
+      },
+      {
+        "name" : "treeNode_1",
+        "html" : "\n            <i></i>\n            treeNode_1323232\n          ",
+        "type" : "tree-leaf-node"
+      },
+      {
+        "name" : "treeNode_2",
+        "html" : "\n            <i></i>\n            treeNode_2\n          ",
+        "type" : "tree-leaf-node"
+      },
+      {
+        "name" : "treeNode_3",
+        "html" : "\n            <i></i>\n            treeNode_3\n          ",
+        "type" : "tree-leaf-node"
+      }
+    ],
+    "html" : "\n        <i></i>\n        TreeNode_133232\n      ",
+    "type" : "tree-node"
+  },
+  {
+    "name" : "treeNode_7",
+    "html" : "\n        <i></i>\n        Tree-7888\n      ",
+    "type" : "tree-leaf-node"
+  },
+  {
+    "name" : "tree-node_2",
+    "hierSpecs" : [
+      {
+        "name" : "tree-node_4",
+        "hierSpecs" : [
+          {
+            "name" : "tree-leaf-node_11",
+            "html" : "tree-leaf-node_11",
+            "type" : "tree-leaf-node"
+          },
+          {
+            "name" : "tree-leaf-node_10",
+            "html" : "tree-leaf-node_10",
+            "type" : "tree-leaf-node"
+          },
+          {
+            "name" : "tree-leaf-node_9",
+            "html" : "tree-leaf-node_9",
+            "type" : "tree-leaf-node"
+          },
+          {
+            "name" : "tree-leaf-node_3",
+            "html" : "\n                <i></i>\n                tree-leaf-node_3\n              ",
+            "type" : "tree-leaf-node"
+          },
+          {
+            "name" : "tree-leaf-node_5",
+            "html" : "\n                <i></i>\n                tree-leaf-node_5\n              ",
+            "type" : "tree-leaf-node"
+          }
+        ],
+        "html" : "\n            <i></i>\n            tree-node_4\n          ",
+        "type" : "tree-node"
+      },
+      {
+        "name" : "tree-leaf-node_4",
+        "html" : "\n            <i></i>\n            tree-leaf-node_4\n          ",
+        "type" : "tree-leaf-node"
+      }
+    ],
+    "html" : "\n        <i></i>\n        tree-node_2\n      ",
+    "type" : "tree-node"
+  },
+  {
+    "name" : "tree-leaf-node_2",
+    "html" : "\n        <i></i>\n        tree-leaf-node_2\n      ",
+    "type" : "tree-leaf-node"
+  },
+  {
+    "name" : "tree-leaf-node_1",
+    "html" : "\n        <i></i>\n        tree-leaf-node_1\n      ",
+    "type" : "tree-leaf-node"
+  },
+  {
+    "name" : "treeNode_4",
+    "html" : "\n        <i></i>\n        treeNode_4\n      ",
+    "type" : "tree-leaf-node"
+  },
+  {
+    "name" : "treeNode_6",
+    "html" : "\n        <i></i>\n        Tree Node123\n      ",
+    "type" : "tree-leaf-node"
+  },
+  {
+    "name" : "tree-leaf-node_6",
+    "html" : "ABCD",
+    "type" : "tree-leaf-node"
+  },
+  {
+    "name" : "tree-node_3",
+    "hierSpecs" : [
+      {
+        "name" : "tree-leaf-node_14",
+        "displayName" : "tree-leaf-node_14",
+        "actionSpec" : {
+          "type" : "view"
+        },
+        "type" : "tree-leaf-node"
+      },
+      {
+        "name" : "treeNode_5",
+        "html" : "\n            <i></i>\n            treeNode_5\n          ",
+        "type" : "tree-leaf-node"
+      },
+      {
+        "name" : "tree-leaf-node_13",
+        "html" : "tree-leaf-node_13",
+        "type" : "tree-leaf-node"
+      }
+    ],
+    "html" : "\n        <i></i>\n        tree-node_3\n      ",
+    "type" : "tree-node"
+  },
+  {
+    "name" : "tree-leaf-node_12",
+    "html" : "tree-leaf-node_12",
+    "type" : "tree-leaf-node"
+  }
+],
+"css" : {
+  "width" : "400px",
+  "padding" : "10px"
+},
+"cssClass" : "nav-tree-container js-non-native-scrollbar"
+}

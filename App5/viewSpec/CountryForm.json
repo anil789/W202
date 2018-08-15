@@ -1,0 +1,41 @@
+{
+  "name" : "CountryForm",
+  "type" : "form",
+  "fieldSpecs" : [
+    {
+      "name" : "country",
+      "displayName" : "Country",
+      "type" : "text"
+    },
+    {
+      "name" : "animal",
+      "displayName" : "Animal",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "plant",
+      "displayName" : "Plant",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "official",
+      "displayName" : "Official",
+      "editable" : true,
+      "type" : "checkbox"
+    },
+    {
+      "name" : "close",
+      "displayName" : "Close",
+      "editable" : true,
+      "type" : "button"
+    },
+    {
+      "name" : "ok",
+      "displayName" : "OK",
+      "editable" : true,
+      "type" : "button"
+    }
+  ]
+}

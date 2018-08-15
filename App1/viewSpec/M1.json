@@ -1,0 +1,163 @@
+{
+  "name" : "M1",
+  "type" : "menu",
+  "actionSpecs" : [
+    {
+      "name" : "MenuItem_1"
+    },
+    {
+      "name" : "MenuItem_2"
+    },
+    {
+      "name" : "MenuItem_3"
+    },
+    {
+      "name" : "MenuItem_5"
+    },
+    {
+      "name" : "MenuItem_4"
+    },
+    {
+      "name" : "MenuItem_9"
+    },
+    {
+      "name" : "MenuItem_6"
+    },
+    {
+      "name" : "MenuItem_7"
+    },
+    {
+      "name" : "MenuItem_8"
+    }
+  ],
+  "hierSpecs" : [
+    {
+      "name" : "MenuItem_1",
+      "cssClass" : "nav-item",
+      "html" : "File",
+      "type" : "menuItem"
+    },
+    {
+      "name" : "MenuItem_2",
+      "cssClass" : "nav-item",
+      "html" : "Edit",
+      "type" : "menuItem"
+    },
+    {
+      "name" : "Dropdown_2",
+      "cssClass" : "nav-item dropdown",
+      "hierSpecs" : [
+        {
+          "name" : "MenuItem_7",
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "\n        <i></i>\n        Add12\n      ",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_8",
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "\n        <i></i>\n        Delete\n      ",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_17",
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "MenuItem_17",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_18",
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "MenuItem_18",
+          "type" : "menuItem"
+        }
+      ],
+      "html" : "Tools",
+      "type" : "dropdown"
+    },
+    {
+      "name" : "Dropdown_1",
+      "cssClass" : "nav-item dropdown",
+      "hierSpecs" : [
+        {
+          "name" : "MenuItem_4",
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "MenuItem_4",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_5",
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "MenuItem_5",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_12",
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "MenuItem_12",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_13",
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "MenuItem_13",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_6",
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "MenuItem_6",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_11",
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "MenuItem_11",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_14",
+          "actionSpec" : { },
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "MenuItem_14",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_10",
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "MenuItem_10",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_15",
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "MenuItem_15",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_16",
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "MenuItem_16",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_3",
+          "actionSpec" : { },
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "MenuItem_3",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_9",
+          "actionSpec" : { },
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "MenuItem_9",
+          "type" : "menuItem"
+        }
+      ],
+      "html" : "Dropdown_1",
+      "type" : "dropdown"
+    }
+  ],
+  "cssClass" : "nav"
+}

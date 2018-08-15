@@ -1,0 +1,22 @@
+{
+  "name" : "G2",
+  "type" : "grid",
+  "fieldSpecs" : [
+    {
+      "name" : "Header_1",
+      "type" : "header"
+    },
+    {
+      "name" : "Title_1",
+      "type" : "title"
+    },
+    {
+      "name" : "TextContent_2",
+      "type" : "content"
+    },
+    {
+      "name" : "TextContent_1",
+      "type" : "content"
+    }
+  ]
+}

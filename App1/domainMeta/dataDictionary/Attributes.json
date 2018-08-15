@@ -1,0 +1,59 @@
+[
+  {
+    "name" : "streetAddress1",
+    "type" : "string",
+    "component" : "text"
+  },
+  {
+    "name" : "streetAddress2",
+    "type" : "string",
+    "component" : "text"
+  },
+  {
+    "name" : "city",
+    "type" : "string",
+    "component" : "text"
+  },
+  {
+    "name" : "state",
+    "type" : "string",
+    "enumName" : "state-name-type",
+    "component" : "text"
+  },
+  {
+    "name" : "zip",
+    "type" : "string",
+    "component" : "text"
+  },
+  {
+    "name" : "zipExtension",
+    "type" : "string",
+    "component" : "text"
+  },
+  {
+    "name" : "country",
+    "type" : "string",
+    "enumName" : "country-name-type",
+    "component" : "text"
+  },
+  {
+    "name" : "userId",
+    "type" : "string",
+    "component" : "text"
+  },
+  {
+    "name" : "password",
+    "type" : "string",
+    "component" : "password"
+  },
+  {
+    "name" : "firstName",
+    "type" : "string",
+    "component" : "text"
+  },
+  {
+    "name" : "lastName",
+    "type" : "string",
+    "component" : "text"
+  }
+]

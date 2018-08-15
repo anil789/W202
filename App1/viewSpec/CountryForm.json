@@ -1,0 +1,89 @@
+{
+  "name" : "CountryForm",
+  "type" : "form",
+  "fieldSpecs" : [
+    {
+      "name" : "name",
+      "cssClass" : "form-group",
+      "editable" : true,
+      "required" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "Text_2",
+      "cssClass" : "form-group",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "Text_5",
+      "cssClass" : "form-group",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "plant",
+      "cssClass" : "form-group",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "country",
+      "cssClass" : "form-group",
+      "css" : {
+        "color" : "rgb(255, 0, 0)",
+        "border" : "10px solid rgb(255, 0, 0)",
+        "padding" : "10px"
+      },
+      "editable" : true,
+      "required" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "Text_4",
+      "cssClass" : "form-group",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "official",
+      "cssClass" : "custom-control custom-checkbox",
+      "editable" : true,
+      "type" : "checkbox"
+    },
+    {
+      "name" : "Select_1",
+      "cssClass" : "form-group",
+      "editable" : true,
+      "type" : "select"
+    },
+    {
+      "name" : "ok12",
+      "cssClass" : "btn btn-primary",
+      "css" : {
+        "border" : "1px solid rgb(255, 0, 0)"
+      },
+      "actionSpec" : {
+        "type" : "dialogView",
+        "viewName" : "F2",
+        "viewType" : "form"
+      },
+      "html" : "OK",
+      "type" : "button"
+    },
+    {
+      "name" : "close",
+      "cssClass" : "btn btn-primary",
+      "css" : {
+        "margin-left" : "5px"
+      },
+      "html" : "Close",
+      "type" : "button"
+    }
+  ],
+  "css" : {
+    "width" : "300px",
+    "padding" : "10px"
+  },
+  "cssClass" : "trillo-form"
+}

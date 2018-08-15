@@ -1,0 +1,87 @@
+{
+  "name" : "N1",
+  "type" : "nav",
+  "actionSpecs" : [
+    {
+      "name" : "MenuItem_3"
+    },
+    {
+      "name" : "menuItem1"
+    },
+    {
+      "name" : "MenuItem_1"
+    },
+    {
+      "name" : "MenuItem_4"
+    },
+    {
+      "name" : "MenuItem_2"
+    }
+  ],
+  "hierSpecs" : [
+    {
+      "name" : "MenuItem_3",
+      "cssClass" : "nav-item",
+      "html" : "\n      <i></i>\n      MenuItem_3\n    ",
+      "type" : "menuItem"
+    },
+    {
+      "name" : "MenuItem_7",
+      "cssClass" : "nav-item",
+      "html" : "\n      <i></i>\n      MenuItem_7\n    ",
+      "type" : "menuItem"
+    },
+    {
+      "name" : "menuItem1",
+      "cssClass" : "nav-item dropdown",
+      "hierSpecs" : [
+        {
+          "name" : "MenuItem_1",
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "\n        <i></i>\n        MenuItem_1\n      ",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_4",
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "\n        <i></i>\n        MenuItem_4\n      ",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_2",
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "\n        <i></i>\n        MenuItem_2\n      ",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_5",
+          "cssClass" : "dropdown-item js-menu-item",
+          "html" : "\n        <i></i>\n        MenuItem_5\n      ",
+          "type" : "menuItem"
+        },
+        {
+          "name" : "MenuItem_8",
+          "displayName" : "MenuItem_8",
+          "actionSpec" : {
+            "type" : "view"
+          },
+          "cssClass" : "dropdown-item",
+          "html" : "MenuItem_8",
+          "type" : "menuItem"
+        }
+      ],
+      "html" : "\n      <i></i>\n      Menu Item 1\n    ",
+      "type" : "dropdown"
+    },
+    {
+      "name" : "MenuItem_6",
+      "css" : {
+        "font-style" : "italic"
+      },
+      "cssClass" : "nav-item",
+      "html" : "\n      <i></i>\n      MenuItem_6\n    ",
+      "type" : "menuItem"
+    }
+  ],
+  "cssClass" : "nav nav-pills"
+}

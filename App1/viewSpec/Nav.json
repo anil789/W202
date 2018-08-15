@@ -1,0 +1,37 @@
+{
+  "name" : "Nav",
+  "type" : "nav",
+  "actionSpecs" : [
+    {
+      "name" : "home_"
+    },
+    {
+      "name" : "animals"
+    },
+    {
+      "name" : "myProfile"
+    },
+    {
+      "name" : "changeMyPassword"
+    },
+    {
+      "name" : "_logout"
+    }
+  ],
+  "hierSpecs" : [
+    {
+      "name" : "home_",
+      "displayName" : "Home",
+      "actionSpec" : { },
+      "type" : "menuItem"
+    },
+    {
+      "name" : "animals",
+      "displayName" : "National Animals",
+      "actionSpec" : {
+        "type" : "view"
+      },
+      "type" : "menuItem"
+    }
+  ]
+}

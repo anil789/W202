@@ -1,0 +1,31 @@
+{
+  "name" : "T4",
+  "type" : "table",
+  "fieldSpecs" : [
+    {
+      "name" : "Column_1",
+      "displayName" : "Column_1",
+      "type" : "readonly"
+    },
+    {
+      "name" : "Readonly_2",
+      "displayName" : "Readonly_2",
+      "type" : "readonly"
+    },
+    {
+      "name" : "Readonly_1",
+      "displayName" : "Readonly_1",
+      "type" : "readonly"
+    },
+    {
+      "name" : "Column_2",
+      "displayName" : "Column_2",
+      "type" : "readonly"
+    },
+    {
+      "name" : "Column_3",
+      "displayName" : "Column_3",
+      "type" : "readonly"
+    }
+  ]
+}

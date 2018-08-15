@@ -1,0 +1,98 @@
+{
+"name" : "C3",
+"type" : "container",
+"containerSpecs" : [
+  {
+    "name" : "Row_1",
+    "autoNav" : false,
+    "css" : {
+      "height" : "60px"
+    },
+    "cssClass" : "trillo-container-row",
+    "tag" : "userDefined",
+    "trigger" : "*",
+    "type" : "row"
+  },
+  {
+    "name" : "Row_2",
+    "autoNav" : false,
+    "childrenSpecs" : [
+      {
+        "name" : "Column_3",
+        "autoNav" : false,
+        "css" : {
+          "min-width" : "20px",
+          "background-color" : "#0000ff"
+        },
+        "cssClass" : "trillo-container-column",
+        "tag" : "userDefined",
+        "trigger" : "*",
+        "type" : "column"
+      },
+      {
+        "name" : "Column_1",
+        "autoNav" : false,
+        "css" : {
+          "min-width" : "20px"
+        },
+        "cssClass" : "trillo-container-column",
+        "tag" : "userDefined",
+        "trigger" : "*",
+        "type" : "column"
+      },
+      {
+        "name" : "Column_4",
+        "autoNav" : false,
+        "childrenSpecs" : [
+          {
+            "name" : "CountryForm_1",
+            "autoNav" : false,
+            "css" : {
+              "width" : "300px",
+              "padding" : "10px",
+              "flex-grow" : "1"
+            },
+            "reference" : "CountryForm",
+            "tag" : "userDefined",
+            "trigger" : "*",
+            "type" : "view"
+          }
+        ],
+        "css" : {
+          "min-width" : "20px",
+          "padding" : "40px"
+        },
+        "cssClass" : "trillo-container-column",
+        "tag" : "userDefined",
+        "trigger" : "*",
+        "type" : "column"
+      },
+      {
+        "name" : "Column_2",
+        "autoNav" : false,
+        "css" : {
+          "min-width" : "20px"
+        },
+        "cssClass" : "trillo-container-column",
+        "tag" : "userDefined",
+        "trigger" : "*",
+        "type" : "column"
+      }
+    ],
+    "css" : {
+      "align-self" : "stretch",
+      "flex-grow" : "1"
+    },
+    "cssClass" : "trillo-container-row",
+    "tag" : "userDefined",
+    "trigger" : "*",
+    "type" : "row"
+  }
+],
+"css" : {
+  "display" : "flex",
+  "flex-direction" : "column",
+  "flex-grow" : "1"
+},
+"cssClass" : "trillo-container"
+}

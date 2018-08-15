@@ -1,0 +1,43 @@
+{
+  "name" : "F6",
+  "type" : "form",
+  "fieldSpecs" : [
+    {
+      "name" : "Text_1",
+      "attrs" : {
+        "data-field" : "",
+        "class" : "form-control",
+        "nm" : "Text_1"
+      },
+      "cssClass" : "form-group",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "Text_2",
+      "displayName" : "Text_2",
+      "cssClass" : "form-group",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "Checkbox_1",
+      "displayName" : "Checkbox_1",
+      "cssClass" : "custom-control custom-checkbox",
+      "editable" : true,
+      "type" : "checkbox"
+    },
+    {
+      "name" : "Select_1",
+      "displayName" : "Select_1",
+      "cssClass" : "form-group",
+      "editable" : true,
+      "type" : "select"
+    }
+  ],
+  "css" : {
+    "width" : "300px",
+    "padding" : "10px"
+  },
+  "cssClass" : "trillo-form"
+}

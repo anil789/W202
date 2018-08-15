@@ -1,0 +1,29 @@
+{
+  "name" : "T11",
+  "type" : "editableTable",
+  "fieldSpecs" : [
+    {
+      "name" : "Text_1",
+      "editable" : true,
+      "html" : "Text_1",
+      "required" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "Column_1",
+      "html" : "Column_1",
+      "type" : "readonly"
+    },
+    {
+      "name" : "Column_2",
+      "html" : "Column_2",
+      "type" : "readonly"
+    },
+    {
+      "name" : "Column_3",
+      "html" : "Column_3",
+      "type" : "readonly"
+    }
+  ],
+  "cssClass" : "trillo-table"
+}

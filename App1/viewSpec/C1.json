@@ -1,0 +1,139 @@
+{
+  "name" : "C1",
+  "type" : "container",
+  "containerSpecs" : [
+    {
+      "name" : "column_1",
+      "autoNav" : false,
+      "childrenSpecs" : [
+        {
+          "name" : "Row_7",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "Image_1",
+              "attrs" : {
+                "src" : "/W202/App1/static/img/owl.jpg"
+              },
+              "autoNav" : false,
+              "css" : {
+                "margin" : "20px"
+              },
+              "cssClass" : "trillo-container-row trillo-component",
+              "tag" : "userDefined",
+              "type" : "img"
+            },
+            {
+              "name" : "Image_2",
+              "attrs" : {
+                "src" : "/W202/App1/static/img/Block3(1).png"
+              },
+              "autoNav" : false,
+              "css" : {
+                "border" : "1px solid #ff0000",
+                "width" : "300px"
+              },
+              "cssClass" : "trillo-container-row trillo-component",
+              "tag" : "userDefined",
+              "type" : "img"
+            }
+          ],
+          "css" : {
+            "padding" : "20px"
+          },
+          "cssClass" : "trillo-container-row",
+          "tag" : "userDefined",
+          "trigger" : "_initial_",
+          "type" : "row"
+        },
+        {
+          "name" : "Row_1",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "F1_1",
+              "autoNav" : false,
+              "css" : {
+                "margin" : "20px"
+              },
+              "flexGrow" : "1",
+              "reference" : "F1",
+              "tag" : "userDefined",
+              "trigger" : "*",
+              "type" : "view"
+            },
+            {
+              "name" : "h1_1",
+              "autoNav" : false,
+              "css" : {
+                "margin" : "50px"
+              },
+              "cssClass" : "trillo-container-row trillo-component",
+              "html" : "\n    Heading 1\n  ",
+              "tag" : "userDefined",
+              "type" : "h1"
+            },
+            {
+              "name" : "CountryForm_1",
+              "alignment" : "left",
+              "autoNav" : false,
+              "css" : {
+                "flex-grow" : "1",
+                "margin" : "30px"
+              },
+              "flexGrow" : "1",
+              "reference" : "CountryForm",
+              "trigger" : "_initial_",
+              "type" : "view"
+            }
+          ],
+          "cssClass" : "trillo-container-row",
+          "trigger" : "_initial_",
+          "type" : "row"
+        },
+        {
+          "name" : "Row_2",
+          "alignment" : "left",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "NationalAnimal_1",
+              "alignment" : "left",
+              "autoNav" : false,
+              "css" : {
+                "flex-grow" : "1"
+              },
+              "flexGrow" : "1",
+              "reference" : "NationalAnimal",
+              "trigger" : "_initial_",
+              "type" : "view"
+            }
+          ],
+          "cssClass" : "trillo-container-row",
+          "trigger" : "_initial_",
+          "type" : "row"
+        },
+        {
+          "name" : "Row_3",
+          "alignment" : "left",
+          "autoNav" : false,
+          "cssClass" : "trillo-container-row",
+          "trigger" : "_initial_",
+          "type" : "row"
+        },
+        {
+          "name" : "Row_4",
+          "autoNav" : false,
+          "cssClass" : "trillo-container-row",
+          "tag" : "userDefined",
+          "trigger" : "_initial_",
+          "type" : "row"
+        }
+      ],
+      "cssClass" : "trillo-container-column trillo-container-row",
+      "flexGrow" : "1",
+      "type" : "column"
+    }
+  ],
+  "cssClass" : "trillo-container trillo-item-design-mode trillo-main-container"
+}

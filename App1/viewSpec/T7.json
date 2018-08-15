@@ -1,0 +1,55 @@
+{
+  "name" : "T7",
+  "type" : "tab",
+  "actionSpecs" : [
+    {
+      "name" : "Tab_1"
+    },
+    {
+      "name" : "Tab_2"
+    },
+    {
+      "name" : "Tab_3"
+    },
+    {
+      "name" : "Tab_4"
+    },
+    {
+      "name" : "Tab_5"
+    }
+  ],
+  "hierSpecs" : [
+    {
+      "name" : "Tab_2",
+      "displayName" : "Tab_2",
+      "type" : "tabSelector"
+    },
+    {
+      "name" : "Tab_3",
+      "displayName" : "Tab_3",
+      "type" : "tabSelector"
+    },
+    {
+      "name" : "Dropdown_1",
+      "displayName" : "Dropdown_1",
+      "hierSpecs" : [
+        {
+          "name" : "Tab_4",
+          "displayName" : "Tab_4",
+          "type" : "tabSelector"
+        },
+        {
+          "name" : "Tab_5",
+          "displayName" : "Tab_5",
+          "type" : "tabSelector"
+        }
+      ],
+      "type" : "dropdown"
+    },
+    {
+      "name" : "Tab_1",
+      "displayName" : "Tab_1",
+      "type" : "tabSelector"
+    }
+  ]
+}

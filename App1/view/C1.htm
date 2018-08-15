@@ -1,0 +1,334 @@
+<div data-container="" class="trillo-container" name="C1" nm="C1" style="display: flex; flex-direction: row; flex-grow: 1;">
+  <div data-component="column" class="trillo-container-column" name="column_1" style="flex-grow: 1; min-width: 20px;">
+    <div data-component="row" class="trillo-container-row" name="Row_3" style="align-self: stretch;"></div>
+    <p data-component="p" class="trillo-container-column" data-content-editable="true" style="padding: 15px;">
+      <b>This is a para.</b>
+      <b>
+        <br>
+      </b>
+      <b>Section</b>
+      <b>
+        <br>
+      </b>
+      <b>Section 2</b>
+      <b>
+        <br>
+      </b>
+      <b>
+        <br>
+      </b>
+    </p>
+    <div data-component="row" class="trillo-container-row" name="Row_5" style="justify-content: center; padding: 20px;">
+      <h1 data-component="h1" class="trillo-container-row" data-content-editable="true">Heading 1</h1>
+    </div>
+    <div data-component="row" class="trillo-container-row" name="Row_6" style="align-self: stretch;">
+      <p data-component="p" class="trillo-container-column" data-content-editable="true">This is a para.&nbsp; &nbsp; More para</p>
+    </div>
+    <div data-component="row" class="trillo-container-row" name="Row_7" style="align-self: stretch;"></div>
+    <div data-component="row" class="trillo-container-row" name="Row_1" style="align-self: stretch;">
+      <div class="trillo-form" name="CountryForm" nm="CountryForm" for-view="CountryForm" style="flex-grow: 1; margin: 30px;">
+        <form data-container="" class="has-validation-callback">
+          <div data-component="text" class="form-group">
+            <label data-label="" data-content-editable="true" style="font-size: 30px;">Animal</label>
+            <input data-field="" type="text" class="form-control" nm="animal">
+          </div>
+          <div data-component="text" class="form-group">
+            <label data-label="" data-content-editable="true">Text1234</label>
+            <input data-field="" type="text" class="form-control" nm="Text_2">
+          </div>
+          <div data-component="text" class="form-group">
+            <label data-label="" data-content-editable="true">Text_5</label>
+            <input data-field="" type="text" class="form-control" nm="Text_5">
+          </div>
+          <div data-component="text" class="form-group">
+            <label data-label="" data-content-editable="true">Plant</label>
+            <input data-field="" type="text" class="form-control" nm="plant">
+          </div>
+          <div data-component="text" class="form-group" style="color: rgb(255, 0, 0); border: 2px solid rgb(255, 0, 0); padding: 10px;">
+            <label data-label="" nm="country" data-content-editable="true" style="color: rgb(255, 0, 0); font-weight: bold; font-size: 24px;">
+              <i>Country Name123...</i>
+            </label>
+            <input data-field="" type="text" class="form-control" nm="country" style="color: inherit;">
+          </div>
+          <div data-component="text" class="form-group">
+            <label data-label="" data-content-editable="true">Text_4</label>
+            <input data-field="" type="text" class="form-control" nm="Text_4">
+          </div>
+          <label data-component="checkbox" class="custom-control custom-checkbox">
+            <input data-field="" type="checkbox" class="custom-control-input" nm="official">
+            <span class="custom-control-indicator"></span>
+            <span data-label="" class="custom-control-description" data-content-editable="true">Official</span>
+          </label>
+          <div data-component="select" class="form-group">
+            <label data-label="" data-content-editable="true">Select_1</label>
+            <select data-field="" class="form-control custom-select" nm="Select_1"></select>
+          </div>
+          <button data-component="button" type="button" class="btn btn-primary" nm="ok" data-content-editable="true" style="border: 1px solid rgb(255, 0, 0);">OK</button>
+          <button data-component="button" type="button" class="btn btn-primary" nm="close" style="margin-left: 5px;" data-content-editable="true">Close</button>
+        </form>
+        <small class="form-control-feedback trillo-display-none js-field-error "></small>
+        <small class="form-text text-muted trillo-display-none js-field-message "></small>
+      </div>
+      <div class="card" for-view="Card1" style="flex-grow: 1; width: 50%; align-self: stretch; border: 1px solid rgb(255, 0, 0); margin: 30px;">
+        <div class="card-header">Header</div>
+        <div class="card-block">
+          <h4 class="card-title">Title</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <a href="#" class="btn btn-primary">Action</a>
+        </div>
+      </div>
+    </div>
+    <div data-component="row" class="trillo-container-row" name="Row_2" style="align-self: stretch;">
+      <div class="trillo-table" name="NationalAnimal" nm="NationalAnimal" for-view="NationalAnimal" style="flex-grow: 1;">
+        <h1 class="trillo-text-center">National Animal</h1>
+        <table data-container="" class="table" style="max-width:400px; margin:0px auto; padding:20px; background-color:#f2f2f2">
+          <thead>
+            <tr data-table-header="">
+              <th data-content-editable="true">Animal</th>
+              <th data-content-editable="true">Country</th>
+              <th data-content-editable="true"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-table-row="" row="0">
+              <td data-component="readonly" nm="animal" data-field="readonly">Kangaroo</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Australia</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="1">
+              <td data-component="readonly" nm="animal" data-field="readonly">Lion</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Belgium</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="2">
+              <td data-component="readonly" nm="animal" data-field="readonly">Candor &amp; Huemul</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Chile</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="3">
+              <td data-component="readonly" nm="animal" data-field="readonly">Mute Swan</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Denmark</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="4">
+              <td data-component="readonly" nm="animal" data-field="readonly">Sisserou Parrot</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Dominica</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="5">
+              <td data-component="readonly" nm="animal" data-field="readonly">Barbary Lion</td>
+              <td data-component="readonly" nm="country" data-field="readonly">England</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="6">
+              <td data-component="readonly" nm="animal" data-field="readonly">Arabian Camel</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Eritrea</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="7">
+              <td data-component="readonly" nm="animal" data-field="readonly">The Ibex Goat</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Ethiopia</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="8">
+              <td data-component="readonly" nm="animal" data-field="readonly">Canje Pheasant</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Guyana</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="9">
+              <td data-component="readonly" nm="animal" data-field="readonly">Lioned Capital</td>
+              <td data-component="readonly" nm="country" data-field="readonly">India</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="10">
+              <td data-component="readonly" nm="animal" data-field="readonly">Shamrock</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Ireland</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="11">
+              <td data-component="readonly" nm="animal" data-field="readonly">Candelabrum</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Israel</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="12">
+              <td data-component="readonly" nm="animal" data-field="readonly">Coast Elephant</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Ivory</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="13">
+              <td data-component="readonly" nm="animal" data-field="readonly">Lion with Crown</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Luxenbourg</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="14">
+              <td data-component="readonly" nm="animal" data-field="readonly">The Soyombo</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Mongolia</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="15">
+              <td data-component="readonly" nm="animal" data-field="readonly">Lion</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Netherlands</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="16">
+              <td data-component="readonly" nm="animal" data-field="readonly">Lion</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Norway</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="17">
+              <td data-component="readonly" nm="animal" data-field="readonly">Crescent</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Pakistan</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="18">
+              <td data-component="readonly" nm="animal" data-field="readonly">New Guinea Bird of paradise</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Papua</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="19">
+              <td data-component="readonly" nm="animal" data-field="readonly">Unicorn</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Scotland</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="20">
+              <td data-component="readonly" nm="animal" data-field="readonly">Lion</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Sierra Leone</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="21">
+              <td data-component="readonly" nm="animal" data-field="readonly">Eagle</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Spain</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="22">
+              <td data-component="readonly" nm="animal" data-field="readonly">Lion</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Sri Lanka</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="23">
+              <td data-component="readonly" nm="animal" data-field="readonly">Secretary Bird</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Sudan</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="24">
+              <td data-component="readonly" nm="animal" data-field="readonly">Eagle</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Syria</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="25">
+              <td data-component="readonly" nm="animal" data-field="readonly">Crescent &amp; Star</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Turkey</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="26">
+              <td data-component="readonly" nm="animal" data-field="readonly">Eagle</td>
+              <td data-component="readonly" nm="country" data-field="readonly">U.S.A.</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+            <tr data-table-row="" row="27">
+              <td data-component="readonly" nm="animal" data-field="readonly">Dragon</td>
+              <td data-component="readonly" nm="country" data-field="readonly">Wales</td>
+              <td data-component="button" nm="edit">
+                <button type="button" class="btn btn-primary" name="edit" nm="edit" data-content-editable="true">Edit</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div data-component="row" class="trillo-container-row" name="Row_4">
+      <header class="app-header navbar" for-view="header" style="z-index: 2000; flex-grow: 1;">
+        <button class="navbar-toggler mobile-sidebar-toggler d-lg-none" nm="mobileSideBarToggler" type="button">☰</button>
+        <a class="navbar-brand" href="/"></a>
+        <ul class="nav navbar-nav d-md-down-none b-r-1">
+          <li class="nav-item">
+            <a class="nav-link navbar-toggler sidebar-toggler" nm="sideBarToggler" href="#">☰</a>
+          </li>
+        </ul>
+        <form class="form-inline float-left b-r-1 px-4 d-md-down-none has-validation-callback">
+          <i class="fa fa-search"></i>
+          <input class="form-control" type="text" placeholder="Search...">
+        </form>
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item dropdown d-md-down-none">
+            <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+              <div class="dropdown-header text-center">
+                <strong>You have 5 pending tasks</strong>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown js-menu">
+            <a class="nav-link nav-pill avatar" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              <img src="static/img/6.png" class="img-avatar" alt="admin@bootstrapmaster.com">
+              <span class="badge badge-pill badge-danger">9</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#" nm="myProfile">
+                <i class="fa fa-user"></i>
+                Profile
+              </a>
+              <a class="dropdown-item" nm="_logout" href="/_logout">
+                <i class="fa fa-lock"></i>
+                Logout
+              </a>
+            </div>
+          </li>
+        </ul>
+      </header>
+    </div>
+  </div>
+</div>

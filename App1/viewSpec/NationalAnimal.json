@@ -1,0 +1,16 @@
+{
+  "name" : "NationalAnimal",
+  "type" : "table",
+  "fieldSpecs" : [
+    {
+      "name" : "animal",
+      "displayName" : "Animal",
+      "type" : "readonly"
+    },
+    {
+      "name" : "country",
+      "displayName" : "Country",
+      "type" : "readonly"
+    }
+  ]
+}

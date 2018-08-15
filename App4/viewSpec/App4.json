@@ -1,0 +1,38 @@
+{
+  "name" : "App4",
+  "type" : "page",
+  "displayName" : "Basic Template",
+  "controller" : "AppC",
+  "containerSpecs" : [
+    {
+      "name" : "headerRow",
+      "autoNav" : false,
+      "cssClass" : "trillo-container-row",
+      "designTimeHeight" : "49px",
+      "tag" : "templateE",
+      "type" : "row"
+    },
+    {
+      "name" : "mainRow",
+      "autoNav" : false,
+      "childrenSpecs" : [
+        {
+          "name" : "mainContentArea",
+          "autoNav" : false,
+          "cssClass" : "trillo-container-column",
+          "designTimeHeight" : "100px",
+          "flexGrow" : "1",
+          "main" : true,
+          "tag" : "templateE",
+          "type" : "column"
+        }
+      ],
+      "cssClass" : "trillo-container-row",
+      "flexGrow" : "1",
+      "main" : true,
+      "tag" : "templateE",
+      "type" : "row"
+    }
+  ],
+  "cssClass" : "trillo-container"
+}

@@ -1,0 +1,181 @@
+{
+  "name" : "App1",
+  "type" : "page",
+  "displayName" : "Left Sidebar",
+  "controller" : "App1C",
+  "containerSpecs" : [
+    {
+      "name" : "header_1",
+      "autoNav" : false,
+      "css" : {
+        "z-index" : "2000",
+        "flex-grow" : "0"
+      },
+      "reference" : "header",
+      "tag" : "true",
+      "trigger" : "_initial_",
+      "type" : "view"
+    },
+    {
+      "name" : "mainRow",
+      "autoNav" : false,
+      "childrenSpecs" : [
+        {
+          "name" : "leftColumn",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "SideBar_1",
+              "autoNav" : false,
+              "css" : {
+                "width" : "250px",
+                "min-width" : "250px",
+                "flex-grow" : "1"
+              },
+              "flexGrow" : "1",
+              "reference" : "SideBar",
+              "tag" : "true",
+              "trigger" : "_initial_",
+              "type" : "view"
+            }
+          ],
+          "css" : {
+            "min-width" : "0px",
+            "padding" : "0px"
+          },
+          "cssClass" : " trillo-container-column trillo-container-row",
+          "tag" : "true",
+          "type" : "column"
+        },
+        {
+          "name" : "mainContentArea",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "Row_1",
+              "alignment" : "top",
+              "autoNav" : false,
+              "cssClass" : " trillo-container-row",
+              "tag" : "true",
+              "trigger" : "_initial_/home_",
+              "type" : "row"
+            },
+            {
+              "name" : "Row_2",
+              "alignment" : "left",
+              "autoNav" : false,
+              "cssClass" : " trillo-container-row",
+              "tag" : "true",
+              "trigger" : "_initial_/home_",
+              "type" : "row"
+            }
+          ],
+          "cssClass" : " trillo-container-column trillo-container-row",
+          "designTimeHeight" : "100px",
+          "flexGrow" : "1",
+          "main" : true,
+          "tag" : "true",
+          "type" : "column"
+        },
+        {
+          "name" : "Column_1",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "Row_4",
+              "autoNav" : false,
+              "childrenSpecs" : [
+                {
+                  "name" : "CountryForm_2",
+                  "autoNav" : false,
+                  "css" : {
+                    "width" : "300px",
+                    "padding" : "10px",
+                    "flex-grow" : "1"
+                  },
+                  "flexGrow" : "1",
+                  "reference" : "CountryForm",
+                  "tag" : "userDefined",
+                  "trigger" : "_initial_",
+                  "type" : "view"
+                },
+                {
+                  "name" : "F1_1",
+                  "autoNav" : false,
+                  "css" : {
+                    "width" : "300px",
+                    "padding" : "15px",
+                    "background-color" : "rgb(0, 0, 0)",
+                    "color" : "rgb(255, 255, 255)",
+                    "border-radius" : "8px",
+                    "flex-grow" : "1",
+                    "margin-left" : "30px"
+                  },
+                  "flexGrow" : "1",
+                  "reference" : "F1",
+                  "tag" : "userDefined",
+                  "trigger" : "_initial_",
+                  "type" : "view"
+                }
+              ],
+              "cssClass" : "trillo-container-row",
+              "tag" : "userDefined",
+              "trigger" : "_initial_/home_",
+              "type" : "row"
+            },
+            {
+              "name" : "Row_3",
+              "autoNav" : false,
+              "childrenSpecs" : [
+                {
+                  "name" : "C1_2",
+                  "autoNav" : false,
+                  "css" : {
+                    "display" : "flex",
+                    "flex-direction" : "row",
+                    "flex-grow" : "1",
+                    "max-width" : "900px"
+                  },
+                  "flexGrow" : "1",
+                  "reference" : "C1",
+                  "tag" : "userDefined",
+                  "trigger" : "_initial_/home_",
+                  "type" : "view"
+                }
+              ],
+              "cssClass" : "trillo-container-row",
+              "tag" : "userDefined",
+              "trigger" : "_initial_",
+              "type" : "row"
+            }
+          ],
+          "css" : {
+            "align-self" : "stretch",
+            "flex-grow" : "1",
+            "padding" : "20px",
+            "min-width" : "20px"
+          },
+          "cssClass" : "trillo-container-column trillo-container-row",
+          "tag" : "userDefined",
+          "trigger" : "_initial_",
+          "type" : "column"
+        }
+      ],
+      "css" : {
+        "flex-grow" : "1"
+      },
+      "cssClass" : " trillo-container-row",
+      "flexGrow" : "1",
+      "main" : true,
+      "tag" : "true",
+      "type" : "row"
+    }
+  ],
+  "css" : {
+    "display" : "flex",
+    "flex-direction" : "column",
+    "flex-grow" : "1",
+    "max-width" : "1100px"
+  },
+  "cssClass" : " trillo-container"
+}

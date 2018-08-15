@@ -1,0 +1,60 @@
+{
+  "name" : "N2",
+  "type" : "nav",
+  "actionSpecs" : [
+    {
+      "name" : "menuItem1"
+    },
+    {
+      "name" : "MenuItem_1"
+    },
+    {
+      "name" : "MenuItem_3"
+    },
+    {
+      "name" : "MenuItem_2"
+    }
+  ],
+  "hierSpecs" : [
+    {
+      "name" : "MenuItem_1",
+      "displayName" : "\n      \n      MenuItem_1\n    ",
+      "actionSpec" : { },
+      "cssClass" : "nav-item",
+      "type" : "menuItem"
+    },
+    {
+      "name" : "menuItem1",
+      "displayName" : "\n      \n      Menu Item 1\n    ",
+      "actionSpec" : { },
+      "cssClass" : "nav-item",
+      "type" : "menuItem"
+    },
+    {
+      "name" : "Dropdown_1",
+      "displayName" : "\n      \n      Dropdown_1\n    ",
+      "cssClass" : "nav-item dropdown",
+      "hierSpecs" : [
+        {
+          "name" : "MenuItem_3",
+          "displayName" : "\n        \n        MenuItem_3\n      ",
+          "actionSpec" : { },
+          "cssClass" : "dropdown-item js-menu-item",
+          "type" : "menuItem"
+        },
+        {
+          "cssClass" : "dropdown-divider",
+          "type" : "divider"
+        },
+        {
+          "name" : "MenuItem_2",
+          "displayName" : "\n        \n        MenuItem_2\n      ",
+          "cssClass" : "dropdown-item js-menu-item",
+          "type" : "menuItem"
+        }
+      ],
+      "type" : "dropdown"
+    }
+  ],
+  "cssClass" : "nav nav-pills"
+}
